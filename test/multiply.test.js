@@ -1,11 +1,6 @@
-//The Function that is invoked when for Mulplication
-function multiplyall(a, b) {
-    return a * b;
-}
-
 // Testing with Mocha and Chai
 const assert = require('assert');
-const multiply = require('../test.js');
+const multiplyall = require('../test.js');
 
 describe('The First Sets of Multiplication Function', () => {
     it('Should return 1, when we multiply(1, 1)', () => {
