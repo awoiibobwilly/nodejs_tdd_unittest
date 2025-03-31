@@ -43,3 +43,27 @@ describe('The Third Sets of Multiplication Function', () => {
         assert.strictEqual(multiplyall(-3, -3), 9);
     })
 });
+
+describe('The Fourth Sets of Multiplication Function', () => {
+    it('Should return 16, when we multiply(4, 4)', () => {
+        assert.strictEqual(multiplyall(4, 4), 16);
+    });
+    it('Should return -16, when we multiply(-4, 4)', () => {
+        assert.strictEqual(multiplyall(-4, 4), -16);
+    });
+    it('Should return 16, when we multiply(-4, -4)', () => {
+        assert.strictEqual(multiplyall(-4, -4), 16);
+    })
+});
+
+describe('The Fifth Sets of Multiplication Function', () => {
+    it('Should return 23*32, when we multiply(23, 32)', () => {
+        assert.strictEqual(multiplyall(23, 32), (23*32));
+    });
+    it('Should return -23*32, when we multiply(-23,3 2)', () => {
+        assert.strictEqual(multiplyall(-23, 32), (-23*32));
+    });
+    it('Should return 23*32, when we multiply(-23, -32)', () => {
+        assert.strictEqual(multiplyall(-23, -32), (-23*-32));
+    })
+});
