@@ -31,3 +31,15 @@ describe('The Second Sets of Multiplication Function', () => {
         assert.strictEqual(multiplyall(-2, -2), 4);
     })
 });
+
+describe('The Third Sets of Multiplication Function', () => {
+    it('Should return 9, when we multiply(3, 3)', () => {
+        assert.strictEqual(multiplyall(3, 3), 9);
+    });
+    it('Should return -9, when we multiply(-3, 3)', () => {
+        assert.strictEqual(multiplyall(-3, 3), -9);
+    });
+    it('Should return 9, when we multiply(-3, -3)', () => {
+        assert.strictEqual(multiplyall(-3, -3), 9);
+    })
+});
